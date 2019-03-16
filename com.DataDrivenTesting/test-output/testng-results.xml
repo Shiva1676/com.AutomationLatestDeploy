@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45240" started-at="2019-03-16T08:56:56Z" finished-at="2019-03-16T08:57:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45240" started-at="2019-03-16T08:56:56Z" finished-at="2019-03-16T08:57:41Z">
+      <class name="testCases.TestCase4">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:testCases.TestCase4@47c62251]" name="startBrowser" is-config="true" duration-ms="7849" started-at="2019-03-16T14:26:48Z" finished-at="2019-03-16T14:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="hrmLoginpage(java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCase4@47c62251]" name="hrmLoginpage" duration-ms="3142" started-at="2019-03-16T14:26:56Z" data-provider="data" finished-at="2019-03-16T14:26:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrmLoginpage -->
+        <test-method status="PASS" signature="hrmLoginpage(java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCase4@47c62251]" name="hrmLoginpage" duration-ms="20818" started-at="2019-03-16T14:26:59Z" data-provider="data" finished-at="2019-03-16T14:27:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WebDriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrmLoginpage -->
+        <test-method status="PASS" signature="hrmLoginpage(java.lang.String, java.lang.String)[pri:0, instance:testCases.TestCase4@47c62251]" name="hrmLoginpage" duration-ms="21232" started-at="2019-03-16T14:27:20Z" data-provider="data" finished-at="2019-03-16T14:27:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QTP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrmLoginpage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.TestCase4@47c62251]" name="closeBrowser" is-config="true" duration-ms="1149" started-at="2019-03-16T14:27:41Z" finished-at="2019-03-16T14:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.TestCase4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
